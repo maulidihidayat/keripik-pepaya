@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="sticky top-0 flex items-center justify-between p-8">
+      <div class="p-2">
+        <h1 class="text-2xl font-bold text-primary">KERIPIK PEPAYA</h1>
+      </div>
+      <div class="flex items-center space-x-10">
+        <div>
+          <ul class="flex space-x-10">
+            <li>
+              <a href="#" class="text-sm font-semibold text-secondary"
+                >Testimoni</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-sm font-semibold text-secondary">FAQ</a>
+            </li>
+            <li>
+              <a href="#" class="text-sm font-semibold text-secondary"
+                >Artikel</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-sm font-semibold text-secondary"
+                >For Institution</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-sm font-semibold text-secondary"
+                >About Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- button navbar -->
+        <div class="flex items-center search-container">
+          <button
+            class="bg-primary text-white px-4 py-4 rounded-2xl border-b-[7px] border-secondary border-2 hover:bg-orange-600"
+          >
+            <a class="font-bold text-background" href="#">Pesan Sekarang</a>
+          </button>
+        </div>
+        <!-- button navbar -->
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- untuk halaman awal -->
+    <section class="items-start justify-normal">
+      <img src="/asset/Stars-1.svg" alt="" class="absolute p-20" />
+      <div class="flex items-center h-screen p-24">
+        <div class="p-10">
+          <h3 class="text-6xl font-bold text-secondary">Cemilan asik</h3>
+          <h3 class="text-6xl font-bold text-secondary">dikala boring?</h3>
+          <h3 class="text-5xl font-bold text-primary">
+            keripik pepaya solusinya!
+          </h3>
+          <div>
+            <!-- svg animation -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 500 150"
+              preserveAspectRatio="none"
+              width="300"
+              height="20"
+            >
+              <path
+                d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"
+                fill="none"
+                stroke="purple"
+                stroke-width="25"
+                stroke-dasharray="500"
+                stroke-dashoffset="500"
+              >
+                <animate
+                  attributeName="stroke-dashoffset"
+                  from="500"
+                  to="0"
+                  dur="1s"
+                  fill="freeze"
+                  begin="1s"
+                />
+                <animate
+                  attributeName="opacity"
+                  values="1;0"
+                  dur="1s"
+                  fill="freeze"
+                  begin="3s"
+                />
+                <animate
+                  attributeName="stroke-dashoffset"
+                  from="0"
+                  to="500"
+                  dur="0s"
+                  fill="freeze"
+                  begin="5s"
+                />
+                <animate
+                  attributeName="opacity"
+                  values="0;1"
+                  dur="0s"
+                  fill="freeze"
+                  begin="5s"
+                />
+              </path>
+            </svg>
+            <!-- svg animation end -->
+          </div>
+          <h3 class="mt-4 text-lg font-bold text-success">
+            Yuk order sekarang juga kripik pepaya, inovasi mahasiswa KKN Bina
+            Desa Universitas Hamzanwadi di Desa Tebaban
+          </h3>
+          <!-- button landing page -->
+          <div class="flex items-center mt-4 search-container">
+            <button
+              class="bg-primary flex space-x-2 text-white px-4 py-3 rounded-2xl border-b-[7px] border-secondary border-2 hover:bg-orange-600"
+            >
+              <a class="font-bold text-background" href="#"
+                >Yuk lihat selengkapnya</a
+              >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-circle-arrow-right"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M8 12h8" />
+                <path d="m12 16 4-4-4-4" />
+              </svg>
+            </button>
+            <p class="text-[#18181B] font-semibold mx-4">
+              Lebih dari 5+ rasa berbeda yang tersedia 🚀
+            </p>
+          </div>
+          <!-- button landing page -->
+        </div>
+
+        <div>
+          <!-- item item pemanis bintang -->
+          <img src="/asset/Stars-1.svg" alt="" class="absolute p-2" />
+          <!-- gambar -->
+          <img src="/asset/PepayaIcon.svg" alt="" width="500PX" />
+        </div>
+        <img src="/asset/Avatar (1).svg" alt="" class="absolute right-0 p-2" />
+      </div>
+    </section>
+  </body>
+</html>
