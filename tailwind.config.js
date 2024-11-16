@@ -9,6 +9,7 @@ module.exports = {
         success: '#52525B', // Warna sukses
         background: '#f8f9fa', // Warna latar belakang
         text: '#fff', // Warna teks
+        bgaccent:'#ffbbf0',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'], // Menambahkan font Inter
